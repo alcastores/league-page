@@ -8,22 +8,37 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
 <p>Official welcome to the Dyno League! Below is the general league format and payouts!</p>
-<p>General League Format:</p>
-<p>1.	This is a full dynasty league which means you keep every player on your roster year after year. </p>
-<p>2.	Yearly buy-in. $50. League fees due before Week 1. </p>
-<p>3.	Payouts.</p>
-<p>a.	1st place – $250</p>
-<p>b.	2nd place – $100</p>
-<p>c.	3rd place – $50</p>
-<p>d.	4th place – $25</p>
-<p>e.	High Score: Payout for highest player score in a week (any week of the season)</p>
-<p>i.	QB – $25</p>
-<p>ii.	WR – $25</p>
-<p>iii.	RB – $25</p>
-<p>f.	Highest single week team score</p>
-<p>i.	Highest – $25</p>
-<p>ii.	Second Highest – $25</p> 
-<p>g.	Survivor (side game) – $50. Starts week (7), team with the lowest score across the league is eliminated each week. Last team standing wins.</p> 
+
+<h2>General League Format:</h2>
+<ol>
+  <li>This is a full dynasty league which means you keep every player on your roster year after year.</li>
+  <li>Yearly buy-in. $50. League fees due before Week 1.</li>
+  <li>
+    Payouts:
+    <ol type="a">
+      <li>1st place – $250</li>
+      <li>2nd place – $100</li>
+      <li>3rd place – $50</li>
+      <li>4th place – $25</li>
+      <li>
+        High Score (highest player score in a week):
+        <ol type="i">
+          <li>QB – $25</li>
+          <li>WR – $25</li>
+          <li>RB – $25</li>
+        </ol>
+      </li>
+      <li>
+        Highest single week team score:
+        <ol type="i">
+          <li>Highest – $25</li>
+          <li>Second Highest – $25</li>
+        </ol>
+      </li>
+      <li>Survivor (side game) – $50. Starts week 7, lowest scoring team is eliminated each week. Last team standing wins.</li>
+    </ol>
+  </li>
+</ol> 
 `;
 
 /*   STEP 3   */
