@@ -9,7 +9,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
 <p>Official welcome to the Dyno League! Below is the general league format and payouts!</p>
 
-<h4>Dyno League Format:</h4>
+<h5>Dyno League Format:</h5>
 <ol>
   <li>This is a full dynasty league which means you keep every player on your roster year after year.</li>
   <li>Yearly buy-in. $50. League fees due before Week 1.</li>
