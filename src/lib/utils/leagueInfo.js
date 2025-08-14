@@ -8,7 +8,6 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
 <p>Official welcome to the Dyno League! Below is the general league format and payouts!</p>
-
 <p>General League Format:</p>
 <p>1.	This is a full dynasty league which means you keep every player on your roster year after year. </p>
 <p>2.	Yearly buy-in. $50. League fees due before Week 1. </p>
